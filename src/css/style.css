@@ -186,10 +186,6 @@ nav{
     border: 2px solid #fafbfb;
 }
 
-.description_left{
-    float: left;
-}
-
 .description_left h3{
     margin: 0px 163px 0px 389px;
     font-size: 18px;
@@ -217,7 +213,8 @@ nav{
 }
 
 .description_right h4{
-    margin: 0px 0px 7px 20px;
+    margin-left: 674px;
+    height: 42px;
     font-size: 18px;
 }
 
@@ -228,5 +225,5 @@ nav{
 
 .calculator_container h2{
     text-align: center;
-    margin: 218px 0px 0px 0px;
+    height: 218px;
 }
