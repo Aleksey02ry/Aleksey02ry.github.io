@@ -177,7 +177,7 @@ nav{
     font-weight: bold;
 }
 
-.portfolio_container p{
+.text_p{
     margin: 74px 0px 40px 615px;
 }
 
@@ -191,9 +191,42 @@ nav{
 }
 
 .description_left h3{
-    margin: 0px 193px 0px 389px;
+    margin: 0px 163px 0px 389px;
     font-size: 18px;
     font-weight: bold;
     color: #384354;
     text-transform: uppercase;
+}
+
+.description_left p{
+    margin: 17px 0px 41px 391px;
+    color: #525a69;
+    font-size: 14px;
+}
+
+.description_left a{
+    margin: 16px 0px 0px 391px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 16px 43px 16px 43px;
+}
+
+.description_right h4{
+    margin: 0px 0px 7px 20px;
+    font-size: 18px;
+}
+
+.description_right p{
+    white-space: pre;
+    font-size: 14px;
+}
+
+.calculator_container h2{
+    text-align: center;
+    margin: 218px 0px 0px 0px;
 }
