@@ -165,10 +165,6 @@ nav{
     white-space: normal;
 }
 
-.portfolio_container{
-    float: left;
-}
-
 .portfolio_container h2{
     margin: 105px 0px 0px 913px;
     text-transform: uppercase;
@@ -184,6 +180,10 @@ nav{
 .portfolio_container img{
     margin: 0px 364px 41px 390px;
     border: 2px solid #fafbfb;
+}
+
+.description_left{
+    float: left;
 }
 
 .description_left h3{
@@ -213,8 +213,7 @@ nav{
 }
 
 .description_right h4{
-    margin-left: 674px;
-    height: 42px;
+    margin: 0px 0px 7px 20px;
     font-size: 18px;
 }
 
@@ -225,5 +224,51 @@ nav{
 
 .calculator_container h2{
     text-align: center;
-    height: 218px;
+    margin: 218px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #384354;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.calculator_container h3{
+    margin: 55px 0px 0px 498px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1c2534;
+}
+
+.calculator_container select{
+    margin: 23px 0px 45px 495px;
+    height: 23px;
+    border: 0px solid;
+    background: #eeeeee;
+    padding: 21px 734px 21px 0px;
+}
+
+.srok{
+    height: 17px;
+    margin-left: 497px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.cena{
+    margin-left: 1367px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.stoimot{
+    height: 19px;
+    margin-left: 497px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.cena_dva{
+    margin-left: 1367px;
+    font-size: 18px;
+    font-weight: bolder;
 }
