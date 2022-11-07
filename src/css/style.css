@@ -245,6 +245,7 @@ nav{
     border: 0px solid;
     background: #eeeeee;
     padding: 21px 734px 21px 0px;
+    width: 890px;
 }
 
 .srok{
@@ -271,4 +272,16 @@ nav{
     margin-left: 1367px;
     font-size: 18px;
     font-weight: bolder;
+}
+
+.statistic_container{
+    margin: 155px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/bg3.jpg) center/cover no-repeat;
+}
+
+.statistic_container h2{
+    text-align: center;
+    margin: 103px 0px 0px 0px;
 }
