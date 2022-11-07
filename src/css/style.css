@@ -283,5 +283,183 @@ nav{
 
 .statistic_container h2{
     text-align: center;
-    margin: 103px 0px 0px 0px;
+    padding: 103px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #384354;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.statistic_item_klient{   
+    float: left;
+    margin-left: 441px;
+    margin-right: 157px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.statistic_item_klient h3{
+    margin: 31px 0px 31px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #323e4f;
+}
+
+.statistic_item_klient p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #323e4f;
+}
+
+.statistic_item_chas{
+    float: left;
+    margin-right: 153px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.statistic_item_chas h3{
+    margin: 31px 0px 31px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #323e4f;
+}
+
+.statistic_item_chas p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #323e4f;
+}
+
+.statistic_item_proekt{
+    float: left;
+    margin-right: 152px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.statistic_item_proekt h3{
+    margin: 31px 0px 31px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #323e4f;
+}
+
+.statistic_item_proekt p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #323e4f;
+}
+
+.statistic_item_nagr{
+    float: left;
+    text-align: center;
+    padding:  123px 0px 0px 0px;
+}
+
+.statistic_item_nagr h3{
+    margin: 31px 0px 31px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #323e4f;
+}
+
+.statistic_item_nagr p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #323e4f;
+}
+
+.reviews_container h2{
+    text-align: center;
+    margin: 107px 0px 0px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #384354;
+}
+
+.review img{
+    margin: 100px 0px 35px 902px;
+}
+
+.opic{
+    text-align: center;
+    font-size: 12px;
+    white-space: pre-line;
+}
+
+.imya{
+    text-align: center;
+    margin: 35px 0px 150px 0px;
+    font-size: 12px;
+}
+
+.contacts{
+    width: 100%;
+    height: 810px;
+    background: url(../img/bg4.jpg) center/cover no-repeat;
+}
+
+.contacts_container h2{
+    text-align: center;
+    padding: 105px 0px 0px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.opican{
+    text-align: center;
+    margin: 67px 0px 0px 0px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.contacts_data_geo{
+    float: left;
+    margin-left: 653px;
+    margin-right: 105px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.contacts_data_geo p{
+    margin: 13px 0px 0px 0px;
+    font-size: 12ps;
+    white-space: pre-line;
+    color: #fff;
+}
+
+.contacts_data_mail{
+    float: left;
+    margin-right: 105px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.contacts_data_mail p{
+    margin: 13px 0px 0px 0px;
+    font-size: 12ps;
+    white-space: pre-line;
+    color: #fff;
+}
+
+.contacts_data_tel{
+    float: left;
+    margin-right: 105px;
+    text-align: center;
+    padding: 123px 0px 0px 0px;
+}
+
+.contacts_data_tel p{
+    margin: 13px 0px 0px 0px;
+    font-size: 12ps;
+    white-space: pre-line;
+    color: #fff;
+}
+
+.sms{
+    text-align: center;
 }
