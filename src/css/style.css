@@ -417,12 +417,13 @@ nav{
     color: #fff;
 }
 
+
 .contacts_data_geo{
     float: left;
     margin-left: 653px;
     margin-right: 105px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 44px 0px 0px 0px;
 }
 
 .contacts_data_geo p{
@@ -436,7 +437,7 @@ nav{
     float: left;
     margin-right: 105px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 44px 0px 0px 0px;
 }
 
 .contacts_data_mail p{
@@ -450,7 +451,7 @@ nav{
     float: left;
     margin-right: 105px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 44px 0px 0px 0px;
 }
 
 .contacts_data_tel p{
@@ -460,6 +461,40 @@ nav{
     color: #fff;
 }
 
+.clearfix{
+    clear: both;
+}
+
 .sms{
     text-align: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text_imya{
+    margin: 34px 0px 0px 595px;
+    padding: 13px 0px 13px 14px;
+    width: 352px;
+    background: rgba(220, 224, 230, 0.93);
+}
+
+.text_email{
+    margin-left: 15px;
+    padding: 13px 0px 13px 14px;
+    width: 352px;
+    background: rgba(220, 224, 230, 0.93);
+}
+
+.kommen{
+    margin: 15px 0px 0px 595px;
+    padding: 9px 0px 0px 14px;
+    width: 724px;
+    background: rgba(220, 224, 230, 0.93);
+}
+
+.otprav{
+    margin: 162px 0px 0px 0px;
 }
