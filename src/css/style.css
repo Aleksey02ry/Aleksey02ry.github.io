@@ -444,16 +444,24 @@ nav{
 
 .contacts_container h2{
     text-align: center;
-    padding: 105px 0px 0px 0px;
+    padding: 105px 0px 32px 0px;
     font-size: 27px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
 }
 
+.contacts_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 0 auto;
+}
+
 .opican{
     text-align: center;
-    margin: 67px 0px 0px 0px;
+    margin: 31px 0px 0px 0px;
     font-size: 12px;
     color: #fff;
 }
