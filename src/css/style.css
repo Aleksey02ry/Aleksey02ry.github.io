@@ -83,8 +83,16 @@ nav{
     color: #263244;
 }
 
+.about_me_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 32px 0px 0px 333px;
+}
+
 .about_me_container img{
-    margin: 95px 0px 0px 0px;
+    margin: 61px 0px 0px 0px;
 }
 
 .about_me_container p{
@@ -120,8 +128,16 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    margin: 108px 0px 138px 245px;
+    margin: 108px 0px 0px 255px;
     text-align: center;
+}
+
+.skills_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 32px 0px 103px 917px;
 }
 
 .skills_item_veb{
@@ -166,15 +182,24 @@ nav{
 }
 
 .portfolio_container h2{
-    margin: 105px 0px 0px 913px;
+    text-align: center;
+    margin: 105px 0px 32px 0px;
     text-transform: uppercase;
     color: #384354;
     font-size: 27px;
     font-weight: bold;
 }
 
+.portfolio_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 0 auto;
+}
+
 .text_p{
-    margin: 74px 0px 40px 615px;
+    margin: 36px 0px 40px 615px;
 }
 
 .portfolio_container img{
@@ -283,11 +308,19 @@ nav{
 
 .statistic_container h2{
     text-align: center;
-    padding: 103px 0px 0px 0px;
+    padding: 103px 0px 32px 0px;
     text-transform: uppercase;
     color: #384354;
     font-size: 27px;
     font-weight: bold;
+}
+
+.statistic_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 0 auto;
 }
 
 .statistic_item_klient{   
@@ -295,7 +328,7 @@ nav{
     margin-left: 441px;
     margin-right: 157px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 85px 0px 0px 0px;
 }
 
 .statistic_item_klient h3{
@@ -315,7 +348,7 @@ nav{
     float: left;
     margin-right: 153px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 85px 0px 0px 0px;
 }
 
 .statistic_item_chas h3{
@@ -335,7 +368,7 @@ nav{
     float: left;
     margin-right: 152px;
     text-align: center;
-    padding: 123px 0px 0px 0px;
+    padding: 85px 0px 0px 0px;
 }
 
 .statistic_item_proekt h3{
@@ -354,7 +387,7 @@ nav{
 .statistic_item_nagr{
     float: left;
     text-align: center;
-    padding:  123px 0px 0px 0px;
+    padding:  85px 0px 0px 0px;
 }
 
 .statistic_item_nagr h3{
@@ -372,15 +405,23 @@ nav{
 
 .reviews_container h2{
     text-align: center;
-    margin: 107px 0px 0px 0px;
+    margin: 107px 0px 32px 0px;
     font-size: 27px;
     font-weight: bold;
     text-transform: uppercase;
     color: #384354;
 }
 
+.reviews_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 0 auto;
+}
+
 .review img{
-    margin: 100px 0px 35px 902px;
+    margin: 60px 0px 35px 902px;
 }
 
 .opic{
@@ -507,7 +548,7 @@ nav{
 
 .contacts_social{
     width: 422px;
-    margin: 0 auto;
+    margin: 73px auto;
 }
 
 .contacts_social a{
@@ -522,7 +563,7 @@ nav{
 
 .map img{
     width: 100%;
-    height: 352px;
+    height: 352px; 
 }
 
 .footer{
