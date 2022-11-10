@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    background-color: #000;
+    perspective: 1000px;
+}
+
+.page{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transform: scale(.7) rotateY(-25deg);
+    animation: pageAnimate 1s linear forwards;
+    animation-delay: .7s;
+}
+
+.preloader__scene{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    overflow: hidden;
+}
+
+.preloader__block{
+    width: 50%;
+    background-color: #fff;
+    animation: leftBlock 1s linear forwards;
+    animation-delay: .9s;
+}
+
+.preloader__block:last-child{
+    animation: rightBlock 1s linear forwards;
+    animation-delay: .9s;
+}
+
+.loading__block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1001;
+    animation: loading .5s ease forwards;
+    animation-delay: .7s;
+}
+
+.title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.progress{
+    width: 200px;
+    height: 12px;
+    border: 1px soled #ccc;
+    border-radius: 4px;
+    position: absolute;
+
+}
+
+.progress:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    background-color: #344051;
+    animation: progressLine .4s ease forwards;
+    border-radius: 4px;
+}
+
+@keyframes loading{
+    from{
+        opacity: 1:
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes progressLine{
+    from{
+        width: 0;
+    }
+    to{
+        width: calc(100% - 4px);
+    }
+}
+
+@keyframes leftBlock{
+    0%{
+        transform: translateX(0) scale(1) rotateY(0);
+    }
+    
+    50%{
+        transform: translateX(0) scale(.9) rotateY(10deg);
+    }
+    
+    100%{
+        transform: translateX(-110%) scale(.9) rotateY(10deg);
+    }
+}
+
+@keyframes rightBlock{
+    0%{
+        transform: translateX(0) scale(1) rotateY(0);
+    }
+    
+    50%{
+        transform: translateX(0) scale(.9) rotateY(-10deg);
+    }
+    
+    100%{
+        transform: translateX(110%) scale(.9) rotateY(-10deg);
+    }
+}
+
+@keyframes pageAnimate{
+    from{
+        transform: scale(.7) rotateY(-25deg);
+    }
+    to{
+        transform: scale(1) rotateY(0);
+    }
+}
