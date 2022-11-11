@@ -693,7 +693,34 @@ nav{
 }
 
 .portfolio_container a:hover{
-    background: #38373700;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    transform: scale(1.1)
+}
+
+.otprav{
+    transition: all 0.1s;
+    transform: scale(1)
+}
+
+.otprav:hover{
+    background: #fff;
     color: black;
     transform: scale(1.1)
+}
+
+.contacts_social a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.contacts_social a:visited{
+    color: white;
+}
+
+.contacts_social a:hover{
+    color: #fff;
+    transform: scale(1.3)
 }
