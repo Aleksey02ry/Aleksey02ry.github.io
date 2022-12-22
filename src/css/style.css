@@ -42,9 +42,10 @@ nav{
 }
 .title__container{
     float: left;
-    margin: 434px 0px 0px 404px;
-    color: #2c384a;
     text-align: center;
+    margin-top: 434px;
+    margin-right: 404px;
+    color: #2c384a;
     opacity: 0;
     -webkit-animation: title_conteiner 1s ease forwards;
     -o-animation: title_conteiner 1s ease forwards;
