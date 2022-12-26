@@ -41,22 +41,21 @@ nav{
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 .title__container{
-    float: left;
+    
     text-align: center;
-    margin-top: 434px;
-    margin-right: 404px;
     color: #2c384a;
-    opacity: 0;
+    /*opacity: 0;
     -webkit-animation: title_conteiner 1s ease forwards;
     -o-animation: title_conteiner 1s ease forwards;
     animation: title_conteiner 1s ease forwards;
     -webkit-animation-delay: 2.5s;
     -o-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    animation-delay: 2.5s;*/
 }
 
 .title__container h1{
-    font-size: 59.37px;
+    font-size: 72.37px;
+    text-align: center;
     font-weight: bold;
 }
 
