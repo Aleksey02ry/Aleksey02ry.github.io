@@ -6,6 +6,7 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 10;
 }
 
 .logo{
@@ -44,13 +45,13 @@ nav{
     
     text-align: center;
     color: #2c384a;
-    /*opacity: 0;
+    opacity: 0;
     -webkit-animation: title_conteiner 1s ease forwards;
     -o-animation: title_conteiner 1s ease forwards;
     animation: title_conteiner 1s ease forwards;
     -webkit-animation-delay: 2.5s;
     -o-animation-delay: 2.5s;
-    animation-delay: 2.5s;*/
+    animation-delay: 2.5s;
 }
 
 .title__container h1{
@@ -77,20 +78,9 @@ nav{
     margin: 56px 13px 0px 13px;
 }
 
-/*.about_me{
-    width: 100%;
-    height: 720px;
-    background: url(../img/phon2.png) center/cover no-repeat;
-}
-
-.about_me_container{
-    float: left;
-    margin: 110px 0px 0px 597px;
-    text-align: center;
-}
-
 .about_me_container h2{
     font-size: 25px;
+    margin: 110px 0 30px;
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
@@ -101,18 +91,18 @@ nav{
     border: none;
     background: #d17700;
     width: 71px;
-    margin: 32px 0px 0px 333px;
+    margin: 0 auto 60px;
+    opacity: 1;
 }
 
-.about_me_container img{
-    margin: 61px 0px 0px 0px;
+.about_me_container{
+
+    padding-bottom: 100px;
 }
 
 .about_me_container p{
     font-size: 13.25px;
     font-weight: 200;
-    margin: 23px 0px 33px 0px;
-    text-align: left;
     color: #3f495a;
 }
 
@@ -124,27 +114,27 @@ nav{
     color: #6f707e;
     font-size: 12.5px;
     padding: 8px 16px;
+    color: black;
+    text-decoration: none;
 }
 
 .skills{
-    width: 100%;
-    height: 522px;
+
     background: url(../img/bg2.jpg) center/cover no-repeat;
 }
 
 .skills_container{
-    float: left;
-    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 96px;
 }
+
 .skills_container h2{
-    display: inline-block;
+    text-align: center;
+    width: 214px;
     font-size: 25px;
+    margin: 0px auto 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #263244;
-   /* margin: 108px 0px 0px 255px;
-    margin-top: 108px;
-    margin-left: 164px;
     
 }
 
@@ -153,8 +143,67 @@ nav{
     border: none;
     background: #d17700;
     width: 71px;
-    margin: 32px 0px 103px 917px;
+    margin: 0 auto 100px;
+    opacity: 1;
 }
+
+.skills_item img{
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.skills_item h3{
+    font-size: 13.93px;
+    font-weight: bold;
+    color: #cf7600;
+    margin-bottom: 14px;
+}
+
+.skills_item p{
+    font-size: 12.5px;
+    text-align: center;
+    white-space: normal;
+}
+
+.portfolio_container h2{
+    margin-top: 105px;
+    text-transform: uppercase;
+    color: #384354;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.portfolio_container hr{
+    height: 5px;
+    border: none;
+    background: #d17700;
+    width: 71px;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+/*.about_me{
+    width: 100%;
+    height: 720px;
+    background: url(../img/phon2.png) center/cover no-repeat;
+}
+
+
+
+
+
+
+
+.skills{
+    width: 100%;
+    height: 522px;
+    background: url(../img/bg2.jpg) center/cover no-repeat;
+}
+
+
+
+
+
 
 .skills_item_veb{
     float: left;
@@ -184,35 +233,9 @@ nav{
     text-align: center;
 }
 
-.skills_item h3{
-    margin: 36px 0px 16px 0px;
-    font-size: 13.93px;
-    font-weight: bold;
-    color: #cf7600;
-}
 
-.skills_item p{
-    font-size: 13.5px;
-    text-align: center;
-    white-space: normal;
-}
 
-.portfolio_container h2{
-    text-align: center;
-    margin: 105px 0px 32px 0px;
-    text-transform: uppercase;
-    color: #384354;
-    font-size: 25px;
-    font-weight: bold;
-}
 
-.portfolio_container hr{
-    height: 5px;
-    border: none;
-    background: #d17700;
-    width: 71px;
-    margin: 0 auto;
-}
 
 .text_p{
     margin: 36px 0px 40px 615px;
@@ -679,7 +702,7 @@ nav{
     
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 0px;
     }
 }
 
@@ -730,4 +753,33 @@ nav{
 .contacts_social a:hover{
     color: #fff;
     transform: scale(1.3)
+}
+
+.white-btn:visited{
+     color: white;
+}
+
+@media (max-width: 1200px){
+    .title__container, .title__container h4, .title__container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title__container input{
+        border: 2px solid #fff;
+    }
+    
+    .main{
+        position: relative;
+    }
+    
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
 }
