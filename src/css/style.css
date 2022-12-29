@@ -165,12 +165,17 @@ nav{
     white-space: normal;
 }
 
+.portfolio_container{
+    
+}
 .portfolio_container h2{
+    text-align: center;
     margin-top: 105px;
     text-transform: uppercase;
     color: #384354;
     font-size: 25px;
     font-weight: bold;
+    
 }
 
 .portfolio_container hr{
@@ -178,17 +183,20 @@ nav{
     border: none;
     background: #d17700;
     width: 71px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     opacity: 1;
+    
 }
 
-.text_p{
-    font-size: 12.5px;
+.portfolio_text{
     text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
 
 .portfolio_container img{
-    max-width: 100%;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .description_left h3{
@@ -196,91 +204,59 @@ nav{
     font-weight: bold;
     color: #384354;
     text-transform: uppercase;
+    
 }
 
 .description_left p{
-    color: #525a69;
     font-size: 12.5px;
+    margin: 16px 0;   
 }
 
 .description_left a{
-    height: 40px;
-    text-align: center;
-    border: 2px solid #63b5ae;
+    margin-top: 25px;
+    display: block;
+    width: 100%;
     background: #63b5ae;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 15.62px;
-    padding: 10px 36px 10px 36px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
     text-decoration: none;
+    
 }
-
-/*.about_me{
-    width: 100%;
-    height: 720px;
-    background: url(../img/phon2.png) center/cover no-repeat;
-}
-
-.skills{
-    width: 100%;
-    height: 522px;
-    background: url(../img/bg2.jpg) center/cover no-repeat;
-}
-
-.skills_item_veb{
-    float: left;
-    margin-left: 418px;
-    margin-right: 84px;
-    text-align: center;
-}
-
-.skills_item_veb h3{
-    margin: 36px 0px 16px 0px;
-    font-size: 13.93px;
-    font-weight: bold;
-    color: #cf7600;
-}
-
-.skills_item_veb p{
-    font-size: 13.5px;
-    text-align: center;
-    white-space: normal;
-}
-
-.skills_item{
-    float: left;
-    color: #000;
-    margin-right: 84px;
-    font-size: 19px;
-    text-align: center;
-}
-
-.description_left{
-    float: left;
-}
-
-
 .description_right h4{
-    margin: 0px 0px 7px 20px;
     font-size: 18.75px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #384354;
 }
-
 .description_right p{
-    white-space: pre;
     font-size: 15.62px;
+
 }
 
 .calculator_container h2{
     text-align: center;
-    margin: 218px 0px 0px 0px;
-    text-transform: uppercase;
     color: #384354;
     font-size: 34.37px;
     font-weight: bold;
 }
 
+.calculator_container{
+    max-width: 980px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+
+    padding-top: 74px;
+    margin-top: 165px;
+}
+
+
 .calculator_container h3{
-    margin: 55px 0px 0px 498px;
+    margin: 55px 0px 0px 45px;
     font-size: 21.87px;
     text-transform: uppercase;
     font-weight: bold;
@@ -288,7 +264,7 @@ nav{
 }
 
 .calculator_container select{
-    margin: 23px 0px 45px 495px;
+    margin: 23px 0px 45px 41px;
     height: 23px;
     border: 0px solid;
     background: #eeeeee;
@@ -296,21 +272,29 @@ nav{
     width: 890px;
 }
 
-.srok{
+.calculator hr{
+    height: 2px;
+    border: none;
+    background: #eee;
+    width: 890px;
+    margin: 0 auto 24px;
+    opacity: 1;
+}
+
+.srok_s{
     float: left;
-    height: 17px;
-    margin-left: 497px;
+    margin-left: 44px;
     font-size: 15.62px;
-    font-weight: bolder;
 }
 
-.cena{
-    margin-left: 1367px;
-    font-size: 21.87px;
-    font-weight: bolder;
+.cena_c{
+    float: right;
 }
 
-.stoimot{
+.srok_f{
+    float: none;
+}
+/*.stoimot{
     float: left;
     height: 19px;
     margin: 21px 0px 0px 497px;
