@@ -256,7 +256,7 @@ nav{
 
 
 .calculator_container h3{
-    margin: 55px 0px 0px 45px;
+    margin: 55px 0px 0px 0px;
     font-size: 21.87px;
     text-transform: uppercase;
     font-weight: bold;
@@ -264,52 +264,47 @@ nav{
 }
 
 .calculator_container select{
-    margin: 23px 0px 45px 41px;
+    margin: 0 auto;
     height: 60px;
     border: 0px solid;
     background: #eeeeee;
-    width: 890px;
+    width: 100%;
 }
 
 .calculator hr{
     height: 2px;
     border: none;
     background: #eee;
-    width: 890px;
+    width: 100%;
     margin: 0 auto 24px;
     opacity: 1;
 }
 
 .srok_s{
     float: left;
-    margin-left: 44px;
     font-size: 15.62px;
     font-weight: bold;
 }
 
 .cena_c{
     float: right;
-    margin-right: 37px;
     font-size: 21.87px;
     font-weight: bold;
 }
 
 .srok_f{
     float: left;
-    margin-left: 44px;
     font-size: 15.62px;
     font-weight: bold;
 }
 
 .cena_i{
     float: right;
-    margin-right: 37px;
     font-size: 21.87px;
     font-weight: bold;
 }
 
 .calculator_footer a{
-    text-align: center;
     margin-top: 42px;
     display: block;
     width: 100%;
@@ -499,11 +494,6 @@ nav{
     font-size: 21.87px;
     font-weight: bolder;
 }
-
-
-
-
-
 */
 
 .menu li a{
