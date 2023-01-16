@@ -481,20 +481,6 @@ nav{
     color: white;
     font-size: 9.95px;
 }
-/*.stoimot{
-    float: left;
-    height: 19px;
-    margin: 21px 0px 0px 497px;
-    font-size: 15.62px;
-    font-weight: bolder;
-}
-
-.cena_dva{
-    margin: 17px 0px 0px 1367px;
-    font-size: 21.87px;
-    font-weight: bolder;
-}
-*/
 
 .menu li a{
     transition: all 0.1s;
@@ -624,6 +610,18 @@ nav{
 
 .white-btn:visited{
      color: white;
+}
+
+.calculator_footer a{
+    transition: all 0.1s;
+    transform: scale(1)
+}
+
+
+.calculator_footer a:hover{
+    background: #4e938d;
+    color: white;
+    transform: scale(1.1)
 }
 
 @media (max-width: 1200px){
