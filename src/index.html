@@ -9,10 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Андрей Браун - Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/zagryzka.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
+   <div class="preloader__scene">
+       <div class="loading__block">
+       <div class="title">
+          Loading...
+      </div>
+      <div class="progress"></div>
+      </div>
+      <div class="preloader__block"></div>
+      <div class="preloader__block"></div>
+    </div>
     <header>
         <nav>
            <div class="container">
@@ -64,7 +77,7 @@
         </div>
     </section>
     
-    <section class="about_me">
+    <section class="about_me selection">
        <div class="about_me_container container">
            <div class="row justify-content-center">
                <div class="col-12 col-sm-6 col-md-3 text-center">
@@ -87,7 +100,7 @@
             
         </div>
     </section>
-    <section class="skills">
+    <section class="skills selection">
         <div class="skills_container container">
           <h2>Что я умею</h2>
           <hr>
@@ -115,7 +128,7 @@
         </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio selection">
         <div class="portfolio_container container">
                <div class="row justify-content-center">
                 <h2>Кейсы</h2></div>
@@ -139,29 +152,29 @@
 
             </div>
     </section>
-    <section class="calculator">
+    <section class="calculator selection">
         <div class="calculator_container container">
             <h2>Расчет стоимости</h2>
             <h3>Тип Сайта</h3>
-            <select name="type" id="typeSite">
-                <option value="1" selected disabled>Выберите пункт...</option>
-                <option value="2">Сайт-визитка</option>
-                <option value="3">Корпоративный сайт</option>
-                <option value="4">Интернет-магазин</option>
+            <select id="select1" name="type" id="typeSite">
+                <option value="0" days="0" selected disabled>Выберите пункт...</option>
+                <option value="500" days="3">Сайт-визитка</option>
+                <option value="1000" days="6">Корпоративный сайт</option>
+                <option value="2500" days="11">Интернет-магазин</option>
             </select>
             <h3>Дизайн</h3>
-            <select name="type" id="typeSite">
-                <option value="1" selected disabled>Выберите пункт...</option>
-                <option value="2">Шаблонный</option>
-                <option value="3">Уникальный</option>
-                <option value="4">WOW-Дизайн</option>
+            <select id="select2" name="type" id="typeSite">
+                <option value="0" days="0" selected disabled>Выберите пункт...</option>
+                <option value="500" days="1">Шаблонный</option>
+                <option value="1000" days="2">Уникальный</option>
+                <option value="2000" days="3">WOW-Дизайн</option>
             </select>
             <h3>Адаптивность</h3>
-            <select name="type" id="typeSite">
-                <option value="1" selected disabled>Выберите пункт...</option>
-                <option value="2">Только ПК</option>
-                <option value="3">Только мобильный сайт</option>
-                <option value="4">ПК + Мобильный</option>
+            <select id="select3" name="type" id="typeSite">
+                <option value="0"days="0" selected disabled>Выберите пункт...</option>
+                <option value="300" days="1">Только ПК</option>
+                <option value="300" days="2">Только мобильный сайт</option>
+                <option value="1000" days="3">ПК + Мобильный</option>
             </select>
             <hr>
             <div class="calculator_footer">
@@ -182,7 +195,7 @@
             </div>
         </div>
     </section>
-    <section class="statistic">
+    <section class="statistic selection">
         <div class="statistic_container container">           
             <h2>Немного статистики</h2>
             <hr>
@@ -209,7 +222,7 @@
             </div>
         </div></div>
     </section>
-    <section class="reviews">
+    <section class="reviews selection">
         <div class="reviews_container container">
            <div class="row justify-content-center text-center">
            <div class="col-12 col-sm-10 col-md-7 col-lg-4">
@@ -226,7 +239,7 @@
             </div></div></div>
         </div>
     </section>
-    <section class="contacts">
+    <section class="contacts selection">
         <div class="contacts_container container">
            <div class="row justify-content-center text-center">
             <h2>Мои Контакты</h2>

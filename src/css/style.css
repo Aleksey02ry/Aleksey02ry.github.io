@@ -36,6 +36,8 @@ nav{
     opacity: 0;
 }
 
+
+
 .main{
     width: 100%;
     height: 100%;
@@ -489,6 +491,8 @@ nav{
     display: inline-block;
     text-decoration: none;
 }
+
+
 
 .menu li a:visited{
     color: white;
