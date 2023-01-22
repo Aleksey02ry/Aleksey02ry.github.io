@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(".preloader__scene").css("display", "none");
     
     function calculate(){
       let sum = parseInt($("#select1 option:selected").val()) + parseInt($("#select2 option:selected").val()) + parseInt($("#select3 option:selected").val());
@@ -13,7 +14,7 @@ $(document).ready(function(){
     
     
     $(window).scroll(() => {
-        let scrollDistance = $(wondow).scrollTor();
+        let scrollDistance = $(window).scrollTop();
         
         $('.selection').each((i, el) => {
             
