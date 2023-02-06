@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-size: 15px;
     background-color: #000;
-    perspective: 1000px;
+    perspective: none;
 }
 
 .page{
