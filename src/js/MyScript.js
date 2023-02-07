@@ -23,7 +23,7 @@ $('a[href^="#"]').click(function(){
         
         $(".selection").each((i, el) => {
             
-            if($(el).offset().top - $(".nav").outerHeight() <= scrollDistance){
+            if($(el).offset().top - $("nav").outerHeight() <= scrollDistance){
                 $("nav a").each((i, el) => {
                     if ($(el).hasClass("active")) {
                         $(el).removeClass("active");
@@ -36,3 +36,20 @@ $('a[href^="#"]').click(function(){
     });
 });
 
+$(document).ready(function(){
+    
+  let options = {threshold: [0.9]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.about_me');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
