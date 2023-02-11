@@ -38,7 +38,7 @@ $('a[href^="#"]').click(function(){
 
 $(document).ready(function(){
     
-  let options = {threshold: [0.9]};
+  let options = {threshold: [0.5]};
     let observer = new IntersectionObserver(onEntry, options);
     let elements = $('.about_me');
     elements.each((i,el) => {
@@ -53,3 +53,151 @@ function onEntry (entry){
         }
     });
 }
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.skills');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.portfolio');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.calculator');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.statistic');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.reviews');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.contacts');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.map');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function(){
+    
+  let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = $('.footer');
+    elements.each((i,el) => {
+        observer.observe(el);
+    });
+})
+
+function onEntry (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
+
+$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});

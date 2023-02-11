@@ -657,3 +657,84 @@ nav{
 .menu li a.active{
     color: #d17700;
 }
+
+.about_me{
+    opacity: 0;
+}
+
+.about_me.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.skills{
+    opacity: 0;
+}
+
+.skills.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.portfolio{
+    opacity: 0;
+}
+
+.portfolio.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.calculator{
+    opacity: 0;
+}
+
+.calculator.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.statistic{
+    opacity: 0;
+}
+
+.statistic.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.reviews{
+    opacity: 0;
+}
+
+.reviews.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.contacts{
+    opacity: 0;
+}
+
+.contacts.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.map{
+    opacity: 0;
+}
+
+.map.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.footer{
+    opacity: 0;
+}
+
+.footer.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
