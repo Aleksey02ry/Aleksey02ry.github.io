@@ -7,7 +7,7 @@
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница...">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Андрей Браун - Веб-разработчик</title>
+    <title>Алексей Рябыкин - Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/zagryzka.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -30,7 +30,7 @@
         <nav>
            <div class="container">
            <div class="row">
-                <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+                <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Алексей Рябыкин</div></div>
                 <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
                 <ul>
                     <li><a  href="#about_me">Обо мне</a></li>
@@ -64,14 +64,15 @@
     </header>
     <mail>
     <section class="main">
-       <div class="container h-100"><div class="row align-items-center h-100">
-            <div class="col-xl-6 mt-5 pt-5">
+       <div class="container h-100"><div class="row justify-content-center">
+            <div class="col-xl-7 mt-5 pt-5">
         <div class="title__container mt-5">
            
-            <h1>Привет <br> Я Андрей Браун</h1>
+            <h1>Привет <br> Я Алексей Рябыкин</h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="button" value="Обо мне">
-            <input type="button" value="Мои работы">
+            <a href="#about_me">Обо мне</a>
+            <a href="#portfolio">Мои работы</a>
+            
         </div>
         </div></div>
         </div>
@@ -202,24 +203,25 @@
         <div class="calculator_container container">
             <h2>Расчет стоимости</h2>
             <h3>Тип Сайта</h3>
-            <select id="select1" name="type" id="typeSite">
+            <form action="php/test.php" method="post">
+            <select id="select1" name="tip" id="typeSite">
                 <option value="0" days="0" selected disabled>Выберите пункт...</option>
-                <option value="500" days="3">Сайт-визитка</option>
-                <option value="1000" days="6">Корпоративный сайт</option>
-                <option value="2500" days="11">Интернет-магазин</option>
+                <option value="700" days="4">Сайт-визитка</option>
+                <option value="1200" days="6">Корпоративный сайт</option>
+                <option value="2700" days="11">Интернет-магазин</option>
             </select>
             <h3>Дизайн</h3>
-            <select id="select2" name="type" id="typeSite">
+            <select id="select2" name="diz" id="typeSite">
                 <option value="0" days="0" selected disabled>Выберите пункт...</option>
                 <option value="500" days="1">Шаблонный</option>
                 <option value="1000" days="2">Уникальный</option>
                 <option value="2000" days="3">WOW-Дизайн</option>
             </select>
             <h3>Адаптивность</h3>
-            <select id="select3" name="type" id="typeSite">
+            <select id="select3" name="adap" id="typeSite">
                 <option value="0"days="0" selected disabled>Выберите пункт...</option>
                 <option value="300" days="1">Только ПК</option>
-                <option value="300" days="2">Только мобильный сайт</option>
+                <option value="300" days="1">Только мобильный сайт</option>
                 <option value="1000" days="3">ПК + Мобильный</option>
             </select>
             <hr>
@@ -233,12 +235,13 @@
                     <p class="srok_f">Стоимость</p>
                     <p class="cena_i">0</p></div>
                     <div class="row justify-content-center text-center">
-                    <div class="col-12 col-sm-8 col-md-4">
-                    <a href="#">Оставить заявку</a>
+                    <div class="col-9 col-sm-6 col-md-3">
+                    <button type="submit" class="btn">Оставить заявку</button>
                     </div>
                 </div>
                 </div>
             </div>
+            </form>
         </div>
     </section>
     <section class="statistic">
@@ -248,22 +251,22 @@
             <div class="row justify-content-center text-center">
             <div class="statistic_item col-12 col-sm-6 col col-md-3 mt-md-0">
                 <img src="img/logo1.png" alt="">
-                <h3>120</h3>
+                <h3 class="count">120</h3>
                 <p>Счастливых клиентов</p>
             </div>
             <div class="statistic_item col-12 col-sm-6 col col-md-3 mt-md-0">
                 <img src="img/logo2.png" alt="">
-                <h3>4,600</h3>
+                <h3 class="count">4600</h3>
                 <p>Часов работы</p>
             </div>
             <div class="statistic_item col-12 col-sm-6 col col-md-3 mt-md-0">
                 <img src="img/logo3.png" alt="">
-                <h3>340</h3>
+                <h3 class="count">340</h3>
                 <p>Проектов завершено</p>
             </div>
             <div class="statistic_item col-12 col-sm-6 col col-md-3 mt-md-0">
                 <img src="img/logo4.png" alt="">
-                <h3>23</h3>
+                <h3 class="count">23</h3>
                 <p>Наград получено</p>
             </div>
         </div></div>
@@ -333,15 +336,15 @@
                <div class="row justify-content-center">
                 <div class="contacts_data col-12 col-sm-6 col col-md-3">                  
                     <img src="img/geo.png" alt="">
-                    <p>Санкт-Петербург, <br>Невский проспект 11</p>
+                    <p>Дмитриев, <br>Красных Партизан, 14</p>
                 </div>
                 <div class="contacts_data col-12 col-sm-6 col col-md-3 mt-md-0">
                     <img src="img/mail.png" alt="">
-                    <p>info@mycompany.ru</p>
+                    <p>ryabykin.2002@mail.ru</p>
                 </div>
                 <div class="contacts_data col-12 col-sm-6 col col-md-3 mt-md-0">
                     <img src="img/tel.png" alt="">
-                    <p>+7 999-999-99-99</p>                   
+                    <p>+7 995-650-97-01</p>                   
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -381,7 +384,7 @@
         </div></div>
     </section>
     <section class="map">
-        <img src="img/map.png" alt="">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9feabecff18af8d4125ec73da22609d247568b8cb3c39cf717000218174a8e0d&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
     </section>
     <section class="footer">
         <div class="footer_container">
